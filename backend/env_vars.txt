@@ -1,0 +1,12 @@
+# Render/Railway Backend Environment Variables
+SPRING_DATASOURCE_URL=jdbc:postgresql://dpg-d7o6tq77f7vs73878gbg-a.singapore-postgres.render.com:5432/backend_databases?ssl=true
+SPRING_DATASOURCE_USERNAME=backend_databases_user
+SPRING_DATASOURCE_PASSWORD=k51UMNz6M76iuTDQQU58ruXhHNeRoI2W
+SPRING_DATASOURCE_DRIVER_CLASS_NAME=org.postgresql.Driver
+SPRING_JPA_HIBERNATE_DDL_AUTO=update
+SPRING_JPA_DATABASE_PLATFORM=org.hibernate.dialect.PostgreSQLDialect
+SPRING_JPA_SHOW_SQL=true
+
+# Frontend Environment Variable (For Vercel/Render Frontend)
+# Update the URL below to your actual Backend URL once deployed
+VITE_API_BASE_URL=https://backend-production-6e97.up.railway.app/api

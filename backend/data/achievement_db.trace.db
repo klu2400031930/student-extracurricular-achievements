@@ -1,0 +1,6 @@
+2026-04-28 12:36:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE achievements [*]MODIFY certificate_url LONGTEXT"; expected "., ADD, SET, RENAME, DROP, ALTER"; SQL statement:
+ALTER TABLE achievements MODIFY certificate_url LONGTEXT [42001-214]
+2026-04-28 13:21:09 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE achievements [*]MODIFY certificate_url LONGTEXT"; expected "., ADD, SET, RENAME, DROP, ALTER"; SQL statement:
+ALTER TABLE achievements MODIFY certificate_url LONGTEXT [42001-214]
